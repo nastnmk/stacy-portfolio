@@ -17,7 +17,7 @@ export default function Hero() {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        className="md:hidden absolute bottom-0 left-1/2 -translate-x-1/2 w-[370px] z-20 pointer-events-none"
+        className="md:hidden absolute bottom-0 left-1/2 -translate-x-1/2 w-[300px] z-20 pointer-events-none"
       >
         <img
           src={stacyPhoto}
@@ -36,7 +36,7 @@ export default function Hero() {
         <a
           href="https://t.me/neestyy"
           target="_blank"
-          className="bg-[#5247FF] text-white px-16 py-5 rounded-full font-bold text-sm tracking-[0.2em] shadow-[0_10px_40px_rgba(82,71,255,0.3)] inline-block uppercase"
+          className="bg-[#5247FF] text-white px-16 py-5 rounded-full font-bold text-sm tracking-[0.2em] shadow-[0_10px_40px_rgba(82,71,255,0.3)] inline-block uppercase whitespace-nowrap"
         >
           LET'S CHAT!
         </a>
@@ -49,7 +49,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-[14vw] md:text-[220px] font-serif leading-[0.8] tracking-tighter text-dark select-none relative z-10 -translate-y-4 md:translate-y-24"
+            className="text-[12.5vw] md:text-[192px] font-serif leading-[0.8] tracking-tighter text-dark select-none relative z-10 -translate-y-4 md:translate-y-24"
           >
             <span className="whitespace-nowrap">I'm <span className="italic ml-1 md:ml-4 inline-block">Product</span></span><br />
             <span className="whitespace-nowrap">Designer <span className="not-italic">·</span> <span className="italic ml-3 md:ml-8 inline-block">Manager</span></span>
@@ -105,7 +105,7 @@ export default function Hero() {
             <a 
               href="https://t.me/neestyy" 
               target="_blank"
-              className="bg-[#5247FF] text-white px-20 py-6 rounded-full font-bold text-base tracking-[0.2em] hover:scale-105 transition-all shadow-[0_10px_40px_rgba(82,71,255,0.3)] inline-block uppercase"
+              className="bg-[#5247FF] text-white px-20 py-6 rounded-full font-bold text-base tracking-[0.2em] hover:scale-105 transition-all shadow-[0_10px_40px_rgba(82,71,255,0.3)] inline-block uppercase whitespace-nowrap"
             >
               LET'S CHAT!
             </a>
