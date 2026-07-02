@@ -56,14 +56,14 @@ export default function Hero() {
         </a>
       </motion.div>
 
-      <div className="relative z-10 md:z-30 w-full max-w-7xl px-6 flex flex-col items-center translate-y-0 md:-translate-y-16">
+      <div className="relative w-full max-w-7xl px-6 flex flex-col items-center">
         {/* Massive Title Section */}
         <div className="relative w-full text-center flex flex-col items-center">
           <motion.h1
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-[12.5vw] md:text-[192px] font-serif leading-[0.8] tracking-tighter text-dark select-none relative z-10 translate-y-6 md:translate-y-24"
+            className="text-[12.5vw] md:text-[192px] font-serif leading-[0.8] tracking-tighter text-dark select-none relative z-10 translate-y-6 md:translate-y-8"
           >
             <span className="whitespace-nowrap">I'm <span className="italic ml-1 md:ml-4 inline-block">Product</span></span><br />
             <span className="whitespace-nowrap">Designer <span className="not-italic">·</span> <span className="italic ml-3 md:ml-8 inline-block">Manager</span></span>
@@ -86,12 +86,12 @@ export default function Hero() {
         </div>
 
         {/* Bottom Section with Button and Side Texts (desktop) */}
-        <div className="hidden mt-72 md:mt-[26rem] w-full relative z-30 max-w-7xl md:flex md:flex-row items-center justify-center min-h-[120px]">
+        <div className="hidden mt-72 md:mt-[22rem] w-full relative z-30 max-w-7xl md:flex md:flex-row items-center justify-center min-h-[120px]">
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.5 }}
-            className="md:absolute left-0 top-1/2 md:[transform:translateY(calc(-50%+4rem))] text-left max-w-[280px] text-base md:text-xl font-medium leading-tight text-dark/90"
+            className="md:absolute left-0 top-1/2 md:[transform:translateY(calc(-50%+3rem))] text-left max-w-[280px] text-base md:text-xl font-medium leading-tight text-dark/90"
           >
             Hey, I'm Stacy Naumkina, I believe visuals can change how people perceive any project.
           </motion.div>
@@ -100,7 +100,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.8 }}
-            className="z-10 translate-y-6 md:translate-y-14"
+            className="z-10 translate-y-6 md:translate-y-10"
           >
             <a 
               href="https://t.me/neestyy" 
