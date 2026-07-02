@@ -86,7 +86,7 @@ export default function Hero() {
         </div>
 
         {/* Bottom Section with Button and Side Texts (desktop) */}
-        <div className="hidden mt-72 md:mt-[14rem] w-full relative z-30 max-w-7xl md:flex md:flex-row items-center justify-center min-h-[120px]">
+        <div className="hidden mt-72 md:mt-[-8rem] w-full relative z-30 max-w-7xl md:flex md:flex-row items-center justify-center min-h-[120px]">
           <motion.div 
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
