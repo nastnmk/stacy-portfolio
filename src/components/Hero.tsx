@@ -26,6 +26,20 @@ export default function Hero() {
         />
       </motion.div>
 
+      {/* Desktop: Photo pinned to the bottom edge of the background */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.95 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 1.2, ease: "easeOut" }}
+        className="hidden md:block absolute bottom-0 left-1/2 -translate-x-1/2 w-[560px] z-20 pointer-events-none"
+      >
+        <img
+          src={stacyPhoto}
+          alt="Stacy Naumkina"
+          className="w-full h-auto object-contain drop-shadow-2xl"
+        />
+      </motion.div>
+
       {/* Mobile: Button riding onto the photo */}
       <motion.div
         initial={{ opacity: 0, y: 20 }}
@@ -54,20 +68,6 @@ export default function Hero() {
             <span className="whitespace-nowrap">I'm <span className="italic ml-1 md:ml-4 inline-block">Product</span></span><br />
             <span className="whitespace-nowrap">Designer <span className="not-italic">·</span> <span className="italic ml-3 md:ml-8 inline-block">Manager</span></span>
           </motion.h1>
-
-          {/* Stacy Photo - Overlapping text, centered precisely */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 1.2, ease: "easeOut" }}
-            className="hidden md:block absolute left-1/2 top-[185%] -translate-x-1/2 -translate-y-1/2 w-[280px] md:w-[560px] z-20 pointer-events-none"
-          >
-            <img
-              src={stacyPhoto}
-              alt="Stacy Naumkina"
-              className="w-full h-auto object-contain drop-shadow-2xl"
-            />
-          </motion.div>
         </div>
 
         {/* Mobile: Hey text + stats under the title */}
