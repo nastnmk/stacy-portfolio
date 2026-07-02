@@ -63,7 +63,7 @@ export default function Hero() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-[12.5vw] md:text-[192px] font-serif leading-[0.8] tracking-tighter text-dark select-none relative z-10 -translate-y-4 md:translate-y-24"
+            className="text-[12.5vw] md:text-[192px] font-serif leading-[0.8] tracking-tighter text-dark select-none relative z-10 translate-y-6 md:translate-y-24"
           >
             <span className="whitespace-nowrap">I'm <span className="italic ml-1 md:ml-4 inline-block">Product</span></span><br />
             <span className="whitespace-nowrap">Designer <span className="not-italic">·</span> <span className="italic ml-3 md:ml-8 inline-block">Manager</span></span>
@@ -71,7 +71,7 @@ export default function Hero() {
         </div>
 
         {/* Mobile: Hey text + stats under the title */}
-        <div className="md:hidden mt-2 flex flex-col items-center gap-3 text-center">
+        <div className="md:hidden mt-10 flex flex-col items-center gap-3 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
