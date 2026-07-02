@@ -56,7 +56,7 @@ export default function Hero() {
         </a>
       </motion.div>
 
-      <div className="relative z-10 w-full max-w-7xl px-6 flex flex-col items-center translate-y-0 md:-translate-y-16">
+      <div className="relative z-10 md:z-30 w-full max-w-7xl px-6 flex flex-col items-center translate-y-0 md:-translate-y-16">
         {/* Massive Title Section */}
         <div className="relative w-full text-center flex flex-col items-center">
           <motion.h1
@@ -91,7 +91,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.5 }}
-            className="md:absolute left-0 top-1/2 md:[transform:translateY(calc(-50%+5rem))] text-left max-w-[280px] text-base md:text-xl font-medium leading-tight text-dark/90"
+            className="md:absolute left-0 top-1/2 md:[transform:translateY(calc(-50%+4rem))] text-left max-w-[280px] text-base md:text-xl font-medium leading-tight text-dark/90"
           >
             Hey, I'm Stacy Naumkina, I believe visuals can change how people perceive any project.
           </motion.div>
