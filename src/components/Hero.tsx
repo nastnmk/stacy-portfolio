@@ -91,7 +91,7 @@ export default function Hero() {
             initial={{ opacity: 0, x: -20 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ delay: 0.5 }}
-            className="md:absolute left-0 top-1/2 md:[transform:translateY(calc(-50%+3rem))] text-left max-w-[280px] text-base md:text-xl font-medium leading-tight text-dark/90"
+            className="md:absolute left-0 top-1/2 md:[transform:translateY(calc(-50%+3rem))] text-left max-w-[280px] md:max-w-[340px] text-base md:text-xl font-medium leading-tight text-dark/90"
           >
             Hey, I'm Stacy Naumkina, I believe visuals can change how people perceive any project.
           </motion.div>
