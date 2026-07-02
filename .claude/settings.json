@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Read(//tmp/**)",
+      "Bash(npx tsc *)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Read(//d//**)",
+      "Bash(npm ls *)",
+      "Bash(find /c -iname \"chromium-cli*\" -maxdepth 4)",
+      "Bash(python3 -c ' *)"
+    ]
+  }
+}

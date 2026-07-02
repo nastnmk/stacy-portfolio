@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /c/Users/Admin/AppData -iname \"*.png\" -newer \"d:/code_files/VS/CLAUDE CODE/stacy-naumkina-portfolio/package.json\" 2>/dev/null | head -50)",
+      "Read(//c/Users/Admin/AppData/**)",
+      "Bash(find /c/Temp -iname \"*.png\" -mmin -120 2>/dev/null | head -50; find /c/Users/Admin/AppData/Local/Temp -iname \"*.png\" -mmin -120 2>/dev/null | head -50)",
+      "Read(//c/Temp/**)",
+      "Read(//c/Users/Admin/AppData/Local/Temp/**)",
+      "Bash(find /c/Users/Admin/AppData/Roaming/Code -iname \"*.png\" -mmin -180 2>/dev/null | grep -vi \"node_modules\" | head -30; find /c/Users/Admin/.claude -iname \"*.png\" -mmin -180 2>/dev/null | head -30)",
+      "Read(//c/Users/Admin/AppData/Roaming/Code/**)",
+      "Read(//c/Users/Admin/.claude/**)",
+      "Bash(npm install *)",
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(npm run *)",
+      "Read(//tmp/**)",
+      "Bash(sort -k6,7)",
+      "Bash(git --version)",
+      "Bash(gh --version)",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(git add *)",
+      "Bash(git commit *)"
+    ]
+  }
+}
