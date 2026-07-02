@@ -71,7 +71,7 @@ export default function Hero() {
         </div>
 
         {/* Mobile: Hey text + stats under the title */}
-        <div className="md:hidden mt-10 flex flex-col items-center gap-3 text-center">
+        <div className="md:hidden mt-16 flex flex-col items-center gap-3 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
