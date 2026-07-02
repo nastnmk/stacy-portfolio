@@ -17,7 +17,7 @@ export default function Hero() {
         initial={{ opacity: 0, scale: 0.95 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 1.2, ease: "easeOut" }}
-        className="md:hidden absolute bottom-0 left-1/2 -translate-x-1/2 w-[380px] z-20 pointer-events-none"
+        className="md:hidden absolute bottom-0 left-1/2 -translate-x-1/2 w-[440px] max-w-[95vw] z-20 pointer-events-none"
       >
         <img
           src={stacyPhoto}
