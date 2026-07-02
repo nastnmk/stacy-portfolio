@@ -30,6 +30,10 @@ export default function Contacts() {
       <div className="mt-16 text-center text-gray-400 text-xs font-mono">
         © 2026 Stacy Naumkina. All rights reserved.
       </div>
+
+      <div className="mt-3 text-center text-gray-300 text-[10px] leading-snug max-w-2xl mx-auto">
+        *Признаны экстремистскими организациями и запрещены на территории РФ.
+      </div>
     </section>
   );
 }

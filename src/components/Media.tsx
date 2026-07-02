@@ -14,7 +14,7 @@ const MEDIA: MediaItem[] = [
   },
   {
     id: 'instagram',
-    title: 'Instagram',
+    title: 'Instagram*',
     image: ellipse4,
     accounts: [
       { handle: '@nastnmkk', link: 'https://instagram.com/nastnmkk' },
